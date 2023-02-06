@@ -26,7 +26,7 @@ body {
   font-family: "Manrope", sans-serif;
 }
 #position {
-  margin: 15px 50px;
+  margin: 15px 70px;
 }
 .nav-bar {
   display: flex;
@@ -64,17 +64,44 @@ body {
 .nav-bar .btn > a:hover {
   color: var(--grey);
 }
-.nav-bar .btn button:hover {
+.btn button:hover {
   background: var(--black);
-}
-.nav-bar .btn button {
+} .btn button {
   padding: 8px 14px;
   background-color: var(--green);
   border-radius: 6px;
   margin-left: 15px;
 }
-.nav-bar .btn button a {
+.nav-bar .btn button a,
+.best-place .group .btn button a{
   font-weight: 500;
   font-size: 14px;
   color: var(--white);
+}
+.best-place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0 10px 0;
+}
+.best-place .group h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    color: var(--black);
+    padding-bottom: 15px;
+}
+.best-place .group h1 span{
+    color: var(--green);
+}
+.best-place .group p{
+    font-weight: 400;
+    color: var(--grey);
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 20px;
+    padding-bottom: 15px;
+} 
+.best-place img{
+    width: 550px;
 }
