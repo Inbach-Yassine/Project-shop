@@ -82,7 +82,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 35px 0 10px 0;
+    padding: 35px 0 18px 0;
 }
 .best-place .group h1{
     font-size: 40px;
@@ -100,8 +100,24 @@ body {
     font-size: 14px;
     max-width: 400px;
     line-height: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 } 
 .best-place img{
     width: 550px;
+}
+.callaborate p{
+text-align: center;
+font-size: 20px;
+color: var(--black);
+font-weight: 700;
+}
+.callaborate .img{
+    display: flex;
+    align-items: center;
+    column-gap: 55px;
+    padding: 35px 0 10px 0;
+}
+.callaborate .img img{
+    width: 200px;
+    height: 25px;
 }
