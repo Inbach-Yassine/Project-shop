@@ -66,58 +66,75 @@ body {
 }
 .btn button:hover {
   background: var(--black);
-} .btn button {
+}
+.btn button {
   padding: 8px 14px;
   background-color: var(--green);
   border-radius: 6px;
   margin-left: 15px;
 }
 .nav-bar .btn button a,
-.best-place .group .btn button a{
+.best-place .group .btn button a {
   font-weight: 500;
   font-size: 14px;
   color: var(--white);
 }
-.best-place{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 35px 0 18px 0;
+.best-place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 0 18px 0;
 }
-.best-place .group h1{
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 40px;
-    color: var(--black);
-    padding-bottom: 15px;
+.best-place .group h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color: var(--black);
+  padding-bottom: 15px;
 }
-.best-place .group h1 span{
-    color: var(--green);
+.best-place .group h1 span {
+  color: var(--green);
 }
-.best-place .group p{
-    font-weight: 400;
-    color: var(--grey);
-    font-size: 14px;
-    max-width: 400px;
-    line-height: 20px;
-    padding-bottom: 20px;
-} 
-.best-place img{
-    width: 550px;
+.best-place .group p {
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 20px;
+  padding-bottom: 20px;
 }
-.callaborate p{
-text-align: center;
-font-size: 20px;
-color: var(--black);
-font-weight: 700;
+.best-place img {
+  width: 550px;
 }
-.callaborate .img{
-    display: flex;
-    align-items: center;
-    column-gap: 55px;
-    padding: 35px 0 10px 0;
+.callaborate p {
+  text-align: center;
+  font-size: 20px;
+  color: var(--black);
+  font-weight: 700;
 }
-.callaborate .img img{
-    width: 200px;
-    height: 25px;
+.callaborate .img {
+  display: flex;
+  align-items: center;
+  column-gap: 55px;
+  padding: 35px 0 10px 0;
+}
+.callaborate .img img {
+  width: 200px;
+  height: 25px;
+}
+.categories-of-store {
+  padding: 35px 0 20px 0;
+}
+.categories-of-store h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--black);
+}
+.categories-of-store .container {
+  padding-top: 20px;
+}
+.categories-of-store .container img {
+  width: 1120px;
+  height: 250px;
 }
