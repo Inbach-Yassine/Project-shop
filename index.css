@@ -125,7 +125,8 @@ body {
 .categories-of-store {
   padding: 35px 0 20px 0;
 }
-.categories-of-store h2 {
+.categories-of-store h2,
+.products-from h1 {
   font-size: 22px;
   font-weight: 700;
   line-height: 32px;
@@ -139,7 +140,7 @@ body {
   height: 250px;
 }
 .choose-bachira{
-    padding: 30px 0 15px 0;
+    padding: 30px 0;
 }
 .choose-bachira h1{
     font-size: 25px;
@@ -154,7 +155,7 @@ body {
   align-items: center;
   justify-content: center;
   column-gap: 3em;
-  padding-top: 35px;
+  padding: 35px 0 20px 0;
 }
 .choose-bachira .box .card{
   text-align: center;
@@ -186,4 +187,36 @@ body {
   font-weight: 400;
   color: var(--grey);
   max-width: 230px;
+}
+.products-from .groups-img{
+  display: flex;
+  padding-top: 20px;
+  column-gap: 2.7em;
+}
+.products-from .groups-img .box-img{
+  margin-right: 0;
+  max-width: max-content;
+}
+.products-from .groups-img .box-img img{
+  width: 230px;
+  height: 250px;
+  object-fit: fill;
+  padding-bottom: 10px;
+}
+.products-from .groups-img .box-img:nth-child(5) img{
+  height: 250px;
+  width: 100px;
+}
+.products-from .groups-img .box-img h5{
+  font-weight: 500;
+  font-size: 14px;
+  max-width: max-content;
+  color: var(--black);
+  padding-left: 10px;
+}
+.products-from .groups-img .box-img p{
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--grey);
+  padding-left: 10px;
 }
