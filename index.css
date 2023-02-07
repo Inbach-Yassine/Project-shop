@@ -138,3 +138,52 @@ body {
   width: 1120px;
   height: 250px;
 }
+.choose-bachira{
+    padding: 30px 0 15px 0;
+}
+.choose-bachira h1{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.choose-bachira h1 span{
+    color: var(--green);
+}
+.choose-bachira .box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3em;
+  padding-top: 35px;
+}
+.choose-bachira .box .card{
+  text-align: center;
+  box-shadow: 0 4px 8px 0 var(--green);
+  padding: 30px;
+  border-radius: 10px;
+}
+.choose-bachira .box .card:nth-child(2){
+  border: 2px solid var(--green);
+}
+.choose-bachira .box .card:hover{
+  cursor: pointer;
+  border: 2px solid var(--green);
+  overflow: hidden;
+}
+.choose-bachira .box .card img{
+  width: 40px;
+  object-fit: cover;
+  padding-bottom: 5px;
+}
+.choose-bachira .box .card h3{
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--black);
+  padding-bottom: 5px;
+}
+.choose-bachira .box .card p{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--grey);
+  max-width: 230px;
+}
